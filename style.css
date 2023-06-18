@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    min-height: 100vh;
     font-family: Roboto, sans-serif;
 }
 
@@ -44,8 +45,12 @@ body {
 }
 
 .footer {
+    display: flex;
     background-color: #1F2937;
     color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
 }
 
 .header {
@@ -56,6 +61,7 @@ body {
 
 .left-logo {
     font-size: 24px;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
