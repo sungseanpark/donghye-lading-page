@@ -181,5 +181,49 @@ button {
     font-size: 18px;
     color: #1F2937;
     align-self: center;
-    padding-left: 120px;
+    padding-left: 140px;
+    font-weight: 800;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin: 0px;
+    padding: 100px;
+    background-color:  #F9FAF8
+}
+
+.action-body {
+    display: flex;
+    background-color: #3882F6;
+    width: 100%;
+    margin: 0px auto;
+    padding: 50px 100px;
+    border-radius: 5px;
+}
+
+.action-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+
+.action-maintext{
+    color: #F9FAF8;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.action-subtext {
+    color: #E5E7EB;
+    font-size: 12px;
+}
+
+.action-body button {
+    margin-left: auto;
+    border: 2px solid #F9FAF8;
+    padding: 8px 16px;
+    align-self: center;
 }
