@@ -30,7 +30,7 @@ body {
 .item-container {
     display: flex;
     justify-content: center;
-    gap: 36px;
+    gap: 48px;
     margin-bottom: 48px;
 }
 
@@ -96,6 +96,7 @@ li a {
 .main-text {
     color: #F9FAF8;
     font-size: 48px;
+    /*font-style: bold;*/
     font-weight: 900;
 }
 
@@ -157,4 +158,28 @@ button {
     text-align: center;
     font-family: Roboto, sans-serif;
     color:  darkgray;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    padding: 100px ;
+    align-self: stretch;
+    gap: 16px;
+}
+
+.quote-content {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    align-self: center;
+}
+
+.quote-author {
+    font-size: 18px;
+    color: #1F2937;
+    align-self: center;
+    padding-left: 120px;
 }
